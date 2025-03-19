@@ -2,6 +2,9 @@ import Herosection from "./components/Herosection";
 import Navbar from "./components/Navbar";
 import Featuressection from "./components/Featuressection";
 import Workflow from "./components/Workflow";
+import Pricing from "./components/Pricing"
+import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -11,6 +14,9 @@ export default function App() {
         <Herosection/>
         <Featuressection/>
         <Workflow/>
+        <Pricing/>
+        <Testimonials/>
+        <Footer/>
 
       </div>
     </>
